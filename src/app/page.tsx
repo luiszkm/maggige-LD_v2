@@ -12,7 +12,6 @@ import fullPlanta from '../../public/img/full-plant.svg'
 import mainhero from '@/../public/img/main-hero.svg'
 import noivos from '../../public/img/noivos.svg'
 import noivosMain from '../../public/img/noivos.jpg'
-
 import direita from '../../public/img/direita.svg'
 import carro from '../../public/img/carro.svg'
 import CountdownTimer from '@/components/Timer'

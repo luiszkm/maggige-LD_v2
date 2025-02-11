@@ -197,7 +197,7 @@ export default function Home() {
                 <ul>
                   <li>AV Afonso vaz de melo 465, Lado B</li>
                   <li>Via Shopping</li>
-                  <li>barreiro</li>
+                  <li>Barreiro</li>
                 </ul>
                 <div className=" flex gap-3">
                   <a

@@ -25,7 +25,9 @@
       "password": "buque",
       "guests": [
         { "name": "Vivian", "photoUrl": "http://www.example.com/vivian.jpg" },
-        { "name": "Leila", "photoUrl": "http://www.example.com/leila.jpg" }
+        { "name": "Leila", "photoUrl": "http://www.example.com/leila.jpg" },
+        { "name": "Thiago", "photoUrl": "http://www.example.com/leila.jpg" }
+
       ],
       "confirmed": [],
       "present": [],
@@ -305,6 +307,10 @@
   ],
   "presentList": [
     {
+      "name": "Pix",
+      "photoUrl": "https://www.advocacianunes.com.br/wp-content/uploads/2022/04/logo-pix-icone-1024.png",
+      "linkUrl": ""
+    },{
       "name": "Micro Processador",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7r9b0-llozbd8uwy1m41.webp",
       "linkUrl": "https://shopee.com.br/product/811034337/23130472127?d_id=b3f38&uls_trackid=51un9oug00r3"
@@ -370,7 +376,7 @@
       "linkUrl": "https://shopee.com.br/product/995586435/19699238455?d_id=b3f38&uls_trackid=51unf04h00ru"
     },
     {
-      "name": "Panela de Pressão",
+      "name": "Panela de Pressão Elétrica",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rbm6-llt6msr5boh53a.webp",
       "linkUrl": "https://shopee.com.br/product/811879342/21175431979?d_id=b3f38&uls_trackid=51unf4gt00af&utm_content=JZbdXenWMVmaBoPvWQ8gYkgdqcb"
     },

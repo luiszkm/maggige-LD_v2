@@ -4,6 +4,16 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from 'firebase/storage';
 
+console.log("FIREBASE CONFIG:", {
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY?.length,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN?.length,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID?.length,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET?.length,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID?.length,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID?.length,
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID?.length
+});
+
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,

@@ -117,6 +117,9 @@ export default function Guest() {
         description: 'Não foi possível confirmar sua presença',
         variant: 'destructive'
       })
+      console.error('Erro ao adicionar documento: ', error)
+    }finally{
+      setDialogOpen(false)
     }
   }
 

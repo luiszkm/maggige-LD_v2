@@ -196,10 +196,6 @@
       "password": "uniao",
       "guests": [
         { "name": "Wal", "photoUrl": "http://www.example.com/wal.jpg" },
-        {
-          "name": "Jonathan",
-          "photoUrl": "http://www.example.com/jonathan.jpg"
-        },
         { "name": "Vovo", "photoUrl": "http://www.example.com/vovo.jpg" },
         { "name": "Alice", "photoUrl": "http://www.example.com/alice.jpg" }
       ],
@@ -324,11 +320,6 @@
       "name": "Faqueiro",
       "photoUrl": "https://down-br.img.susercontent.com/file/f945c11d2d78d51b0a98536f6dfc678a.webp",
       "linkUrl": "https://shopee.com.br/product/315971499/14705067689?d_id=b3f38&uls_trackid=51unag9s00af"
-    },
-    {
-      "name": "Liquidificador",
-      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134211-7r98o-lzyxprq983dx30.webp",
-      "linkUrl": "https://shopee.com.br/product/984932739/19497389619?d_id=b3f38&uls_trackid=51unaog301ae"
     },
     {
       "name": "Aparelho de Jantar e Chá",

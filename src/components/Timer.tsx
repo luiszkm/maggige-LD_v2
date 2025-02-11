@@ -18,7 +18,7 @@ const CountdownTimer: React.FC<{ targetDate: Date }> = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className='text-4xl mt-32 font-bold '>
+    <div className='text-6xl mt-32 font-mea  '>
       <h1>Faltam: {daysLeft} dia(s)</h1>
     </div>
   );

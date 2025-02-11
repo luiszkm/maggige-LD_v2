@@ -11,6 +11,11 @@ export default {
 			backgroundImage: {
 				'hero': "url('/img/full-plant.svg')", // Sem o prefixo backgroundImage-
 			},
+			fontFamily: {
+				ballet: ['Ballet', 'serif'],
+				mea: ['Mea Culpa', 'serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
 			colors: {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',

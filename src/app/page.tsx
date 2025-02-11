@@ -53,7 +53,7 @@ export default function Home() {
           alt="logo"
         />
         <div className=" w-full bgg  h-full p-10 flex flex-col items-center justify-center">
-          <h1 className="text-6xl lg:text-9xl font-bold text-center ">
+          <h1 className="text-6xl lg:text-9xl text-center font-mea ">
             Lorraine <br />
             &
             <br />

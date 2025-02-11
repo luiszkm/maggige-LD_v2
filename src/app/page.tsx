@@ -123,7 +123,8 @@ export default function Home() {
                 Operação Lua de mel
               </h2>
               <p className="text-md sm:text-lg md:text-3xl">
-                Operação Lua de mel Ativada 🚀 A missão é simples: aproveitar ao
+                Operação Lua de mel Ativada 🚀 <br />
+                 A missão é simples: aproveitar ao
                 máximo cada momento dessa viagem dos sonhos! Dê uma força pra
                 gente faça sua contribuição com um PIX 💰e torne nossa viagem
                 inesquecível!❤ Estamos contanto com todos vocês para tornar

@@ -23,7 +23,6 @@ import {
   DialogTitle,
   DialogTrigger
 } from '@/components/ui/dialog'
-import { AddProduct } from '@/lib/Firebase/CRUD'
 
 import { Input } from '@/components/ui/input'
 import { useEffect, useState } from 'react'
@@ -36,6 +35,7 @@ import mainhero from '@/../public/img/main-hero.svg'
 import { Toaster } from '@/components/ui/toaster'
 import { useToast } from '@/hooks/use-toast'
 
+
 const formSchema = z.object({
   email: z.string().email({
     message: 'Digite um email valido'
@@ -45,7 +45,7 @@ const formSchema = z.object({
   })
 })
 
-type EmailModel = {
+type EmailTemplateProps = {
   confirmed: string[]
   email: string
   presents: string[]
@@ -53,7 +53,7 @@ type EmailModel = {
 
 export default function Guest() {
   const eventData: EventData = eventDataJson
-  const [emailmodel, setEmailModel] = useState<EmailModel>()
+  const [emailmodel, setEmailModel] = useState<EmailTemplateProps>()
   const [presenceStatus, setPresenceStatus] = useState<
     Record<string, 'confirmed' | 'not_confirmed'>
   >({})
@@ -90,23 +90,44 @@ export default function Guest() {
   const handlePresentSelection = (presents: Present[]) => {
     setSelectedPresents(presents)
   }
-
+  
   // 2. Define a submit handler.
   function onSubmit(values: z.infer<typeof formSchema>) {
     setDialogOpen(true)
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
-    const emailModel: EmailModel = {
+    const emailModel: EmailTemplateProps = {
       email: values.email,
       presents: values.presents.split(',').map(present => present.trim()),
       confirmed: confirmedKeys
     }
     setEmailModel(emailModel)
   }
-
+  async function sendEmail(
+    guests: string[], 
+    email: string, 
+    presents: string[]) {
+      const body = JSON.stringify({ guests, email, presents })
+    try {
+      const response = await fetch("/api/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body:body ,
+      });
+  
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Erro ao enviar e-mail");
+  
+      console.log("✅ E-mail enviado com sucesso!", data);
+    } catch (error) {
+      console.error("❌ Erro ao enviar e-mail:", error);
+    }
+  }
+  
   async function handleConfirmGuests() {
     try {
-      AddProduct(emailmodel!)
+      //AddProduct(emailmodel!)
+      sendEmail(emailmodel!.confirmed, emailmodel!.email, emailmodel!.presents)
       toast({
         title: 'Obrigado',
         description: 'Sua presença foi confirmada'
@@ -118,7 +139,7 @@ export default function Guest() {
         variant: 'destructive'
       })
       console.error('Erro ao adicionar documento: ', error)
-    }finally{
+    } finally {
       setDialogOpen(false)
     }
   }
@@ -237,7 +258,7 @@ export default function Guest() {
               <DialogFooter className="flex items-center justify-between w-full">
                 <div className="w-full flex items-center gap-4 justify-between">
                   <span>{userEmail}</span>
-                  <Button  onClick={handleConfirmGuests} type="submit">
+                  <Button onClick={handleConfirmGuests} type="submit">
                     Confirmar presença
                   </Button>
                 </div>

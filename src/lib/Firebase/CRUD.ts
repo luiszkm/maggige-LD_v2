@@ -1,4 +1,4 @@
-import { collection, addDoc, doc, updateDoc } from 'firebase/firestore';
+import { collection, addDoc } from 'firebase/firestore';
 import { db } from './firebaseConfig';
 
 type EmailModel = {
@@ -14,18 +14,7 @@ export async function AddProduct(data: EmailModel) {
     const docRef = await addDoc(collection(db, 'guests'), data);
     console.log('Documento criado com ID:', docRef.id);
 
-    try {
-      // Atualiza o mesmo documento recém-criado
-      const userDocRef = doc(db, 'guests', docRef.id);
-      await updateDoc(userDocRef, {
-        lastUpdate: new Date()
-      });
-
-      console.log(`Produto ${docRef.id} adicionado com sucesso.`);
-    } catch (error) {
-      console.error('Erro ao atualizar o documento:', error);
-      throw error;
-    }
+    
   } catch (error) {
     console.error('Erro ao adicionar documento:', error);
   }

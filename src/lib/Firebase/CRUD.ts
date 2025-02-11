@@ -1,4 +1,4 @@
-import { collection, addDoc, doc, updateDoc, arrayUnion } from 'firebase/firestore';
+import { collection, addDoc, doc, updateDoc } from 'firebase/firestore';
 import { db } from './firebaseConfig';
 
 type EmailModel = {
@@ -18,7 +18,6 @@ export async function AddProduct(data: EmailModel) {
       // Atualiza o mesmo documento recém-criado
       const userDocRef = doc(db, 'guests', docRef.id);
       await updateDoc(userDocRef, {
-        products: arrayUnion(docRef.id),
         lastUpdate: new Date()
       });
 

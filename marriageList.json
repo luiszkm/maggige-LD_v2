@@ -125,7 +125,7 @@
       "password": "macarrao",
       "guests": [
         {
-          "name": "Leiticia",
+          "name": "Letícia ",
           "photoUrl": "http://www.example.com/leiticia.jpg"
         },
         { "name": "Lizze", "photoUrl": "http://www.example.com/lizze.jpg" },
@@ -133,7 +133,7 @@
       ],
       "confirmed": [],
       "present": [],
-      "email": "Leiticia"
+      "email": "Letícia"
     },
     {
       "password": "hamburguer",

@@ -202,7 +202,7 @@
       "email": "Wal"
     },
     {
-      "password": "minipizza",
+      "password": "doce",
       "guests": [
         { "name": "Fabiano", "photoUrl": "http://www.example.com/fabiano.jpg" },
         { "name": "Valeria", "photoUrl": "http://www.example.com/valeria.jpg" }

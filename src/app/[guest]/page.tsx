@@ -89,9 +89,7 @@ export default function Guest() {
   }
   const handlePresentSelection = (presents: Present[]) => {
     setSelectedPresents(presents)
-  }
-  console.log(guestName?.guests[0].name)
-  
+  }  
   // 2. Define a submit handler.
   function onSubmit(values: z.infer<typeof formSchema>) {
     setDialogOpen(true)

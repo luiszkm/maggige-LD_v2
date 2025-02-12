@@ -90,14 +90,16 @@ export default function Guest() {
   const handlePresentSelection = (presents: Present[]) => {
     setSelectedPresents(presents)
   }
+  console.log(guestName?.guests[0].name)
   
   // 2. Define a submit handler.
   function onSubmit(values: z.infer<typeof formSchema>) {
     setDialogOpen(true)
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
+    const email = `${guestName?.guests[0].name} , ${values.email} `
     const emailModel: EmailTemplateProps = {
-      email: values.email,
+      email: email,
       presents: values.presents.split(',').map(present => present.trim()),
       confirmed: confirmedKeys
     }
@@ -167,7 +169,7 @@ export default function Guest() {
             <p className="">
               Gentileza selecionar abaixo uma sugestão de presente, clique em
               cada nome na lista de convidados (ficará verde quando confirmar e
-              vermelho caso nao estiver confirmado)
+              vermelho caso não estiver confirmado)
               <br /> preencha com seu email e clique no botão confirmar{' '}
             </p>
           </div>

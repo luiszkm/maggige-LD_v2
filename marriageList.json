@@ -202,7 +202,7 @@
       "email": "Wal"
     },
     {
-      "password": "mini pizza",
+      "password": "minipizza",
       "guests": [
         { "name": "Fabiano", "photoUrl": "http://www.example.com/fabiano.jpg" },
         { "name": "Valeria", "photoUrl": "http://www.example.com/valeria.jpg" }
@@ -308,11 +308,6 @@
       "name": "Micro Processador",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7r9b0-llozbd8uwy1m41.webp",
       "linkUrl": "https://shopee.com.br/product/811034337/23130472127?d_id=b3f38&uls_trackid=51un9oug00r3"
-    },
-    {
-      "name": "Ferro de Passa",
-      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m5a4dm14zgi86c.webp",
-      "linkUrl": "https://shopee.com.br/product/563103782/18097188748?d_id=b3f38&uls_trackid=51una91a00af"
     },
     {
       "name": "Faqueiro",

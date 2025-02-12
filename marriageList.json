@@ -202,7 +202,7 @@
       "email": "Wal"
     },
     {
-      "password": "pizza",
+      "password": "mini pizza",
       "guests": [
         { "name": "Fabiano", "photoUrl": "http://www.example.com/fabiano.jpg" },
         { "name": "Valeria", "photoUrl": "http://www.example.com/valeria.jpg" }
@@ -370,11 +370,6 @@
       "linkUrl": "https://shopee.com.br/product/811879342/21175431979?d_id=b3f38&uls_trackid=51unf4gt00af&utm_content=JZbdXenWMVmaBoPvWQ8gYkgdqcb"
     },
     {
-      "name": "Chaleira Eletrica",
-      "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rdxl-lzjxealm287afd.webp",
-      "linkUrl": "https://shopee.com.br/product/811879342/23693239286?d_id=b3f38&uls_trackid=51unf8q600ae"
-    },
-    {
       "name": "Jogo de Copo",
       "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lto9kju6ceuhfc.webp",
       "linkUrl": "https://shopee.com.br/product/930987223/22892941182?d_id=b3f38&uls_trackid=51unfdgv00r3"
@@ -518,11 +513,6 @@
       "name": "Conjunto de Xicara",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rdvp-lz6parsq7rbac6.webp",
       "linkUrl": "https://shopee.com.br/product/1270189717/23897716990?d_id=b3f38&uls_trackid=51unl94d00r3"
-    },
-    {
-      "name": "Jarra",
-      "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rdys-lz88oc6jvjlz9b.webp",
-      "linkUrl": "https://shopee.com.br/product/1270189717/23097733560?d_id=b3f38&uls_trackid=51unlddm00ae"
     },
     {
       "name": "Pratos",

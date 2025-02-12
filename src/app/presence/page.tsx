@@ -47,7 +47,7 @@ export default function Presence() {
         <Image className="w-60" src={logo} alt="logo" />
       
         <h1 className="font-bold text-2xl md:text-4xl">Confirme sua presença</h1>
-        <p className='md:text-2xl'>Para confirmar sua presença, <br /> por favor, Digite a Palavra magica</p>
+        <p className='md:text-2xl'>Para confirmar sua presença, <br /> por favor, Digite a Palavra mágica</p>
         
        <form action={()=>VerifyPassword()}
         className='flex flex-col gap-4 items-center z-50'>

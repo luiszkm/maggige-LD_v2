@@ -27,7 +27,6 @@
         { "name": "Vivian", "photoUrl": "http://www.example.com/vivian.jpg" },
         { "name": "Leila", "photoUrl": "http://www.example.com/leila.jpg" },
         { "name": "Thiago", "photoUrl": "http://www.example.com/leila.jpg" }
-
       ],
       "confirmed": [],
       "present": [],
@@ -196,8 +195,7 @@
       "password": "uniao",
       "guests": [
         { "name": "Wal", "photoUrl": "http://www.example.com/wal.jpg" },
-        { "name": "Vovo", "photoUrl": "http://www.example.com/vovo.jpg" },
-        { "name": "Alice", "photoUrl": "http://www.example.com/alice.jpg" }
+        { "name": "Vovo", "photoUrl": "http://www.example.com/vovo.jpg" }
       ],
       "confirmed": [],
       "present": [],
@@ -289,8 +287,7 @@
       "confirmed": [],
       "present": [],
       "email": "Jonathan"
-    }
-    ,
+    },
     {
       "password": "vinho",
       "guests": [
@@ -306,7 +303,8 @@
       "name": "Pix",
       "photoUrl": "https://www.advocacianunes.com.br/wp-content/uploads/2022/04/logo-pix-icone-1024.png",
       "linkUrl": ""
-    },{
+    },
+    {
       "name": "Micro Processador",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7r9b0-llozbd8uwy1m41.webp",
       "linkUrl": "https://shopee.com.br/product/811034337/23130472127?d_id=b3f38&uls_trackid=51un9oug00r3"
@@ -550,35 +548,43 @@
       "name": "Copos",
       "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ls5wjk6vc6qs31.webp",
       "linkUrl": "https://shopee.com.br/product/552678257/18399200765?d_id=b3f38&uls_trackid=51unm5pk006h"
-    },  {
+    },
+    {
       "name": "Conjunto Fondue",
       "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lxbez16t06mq50.webp",
       "linkUrl": "https://shopee.com.br/product/632735455/23293132498?d_id=b3f38&uls_trackid=51uvn9f1006h"
-    },  {
+    },
+    {
       "name": "Panela elétrica para fondue",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rcd9-lrbh3kologtf26.webp",
       "linkUrl": "https://shopee.com.br/product/489001115/18697111917?d_id=b3f38&uls_trackid=51uvni6i01r3"
-    },  {
+    },
+    {
       "name": "Assadeiras Antiaderentes",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rd4x-lu9654bb4zinfe.webp",
       "linkUrl": "https://shopee.com.br/product/364324142/23192944814?d_id=b3f38&uls_trackid=51uvnp8e00ru"
-    },  {
+    },
+    {
       "name": "Assadeiras Tramontina",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7qvcp-lhs13w81u7ir93.webp",
       "linkUrl": "https://shopee.com.br/product/638399297/18097026280?d_id=b3f38&uls_trackid=51uvnvmd006h"
-    },  {
+    },
+    {
       "name": "Assadeiras de Vidro",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rd5h-lvdpa9abylb76d.webp",
       "linkUrl": "https://shopee.com.br/product/822103155/23393010982?d_id=b3f38&uls_trackid=51uvo8s900r3"
-    },  {
+    },
+    {
       "name": "Tv 55'",
       "photoUrl": "https://fastshopbr.vtexassets.com/arquivos/ids/769797/0_SGUN55DU8000_PRD_1500_1.jpg?v=638652853427630000",
       "linkUrl": "https://site.fastshop.com.br/smart-tv-samsung-crystal-uhd-4k-55--polegadas-55du8000-com-painel-dynamic-crystal-color--design-airslim-e-alexa-bui-sgun55du8000_prd/p"
-    },  {
+    },
+    {
       "name": "Mesa de Jantar",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rd6m-luo3ef99ighyef@resize_w900_nl.webp",
       "linkUrl": "https://shopee.com.br/product/855489892/22097493685?d_id=b3f38&uls_trackid=51v23inn00ae&utm_content=JZbdXenxYwqXSMyN49RqPJX5tKZ"
-    },  {
+    },
+    {
       "name": "Armario de Cozinha",
       "photoUrl": "https://images.tcdn.com.br/img/img_prod/664403/cozinha_modulada_271_5cm_com_torre_quente_p_2_fornos_8_portas_5_gavetas_americana_henn_cinza_2887_1_9fa052649f1d74942c72a0193551a529_20240703111351.jpg",
       "linkUrl": "https://www.lojaveneza.com.br/cozinha/cozinha-completa/cozinha-modulada-4-pecas-com-torre-quente-8-portas-5-gavetas-271-5cm-americana-henn-cinza"

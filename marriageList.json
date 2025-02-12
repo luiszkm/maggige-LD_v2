@@ -66,17 +66,27 @@
       "email": "Andre"
     },
     {
-      "password": "amizade",
+      "password": "cerveja",
       "guests": [
-        {
-          "name": "Conceição",
-          "photoUrl": "http://www.example.com/conceicao.jpg"
-        },
-        { "name": "Keka", "photoUrl": "http://www.example.com/keka.jpg" }
+        { "name": "Andre", "photoUrl": "http://www.example.com/andre.jpg" },
+        { "name": "Neide", "photoUrl": "http://www.example.com/neide.jpg" }
       ],
       "confirmed": [],
       "present": [],
-      "email": "Conceicao"
+      "email": "Andre"
+    },
+    {
+      "password": "bombom",
+      "guests": [
+        {
+          "name": "Ronilda",
+          "photoUrl": "http://www.example.com/conceicao.jpg"
+        },
+        { "name": "Renato", "photoUrl": "http://www.example.com/keka.jpg" }
+      ],
+      "confirmed": [],
+      "present": [],
+      "email": "Ronilda"
     },
     {
       "password": "familia",

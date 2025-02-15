@@ -66,16 +66,6 @@
       "email": "Andre"
     },
     {
-      "password": "cerveja",
-      "guests": [
-        { "name": "Andre", "photoUrl": "http://www.example.com/andre.jpg" },
-        { "name": "Neide", "photoUrl": "http://www.example.com/neide.jpg" }
-      ],
-      "confirmed": [],
-      "present": [],
-      "email": "Andre"
-    },
-    {
       "password": "bombom",
       "guests": [
         {
@@ -283,11 +273,11 @@
     {
       "password": "petisco",
       "guests": [
-        { "name": "Dona Dú", "photoUrl": "http://www.example.com/ana.jpg" }
+        { "name": "Andrea", "photoUrl": "http://www.example.com/ana.jpg" }
       ],
       "confirmed": [],
       "present": [],
-      "email": "du"
+      "email": "Andrea"
     },
     {
       "password": "padrinho",

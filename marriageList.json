@@ -78,6 +78,20 @@
       "present": [],
       "email": "Ronilda"
     },
+    
+    {
+      "password": "amizade",
+      "guests": [
+        {
+          "name": "Conceição",
+          "photoUrl": "http://www.example.com/conceicao.jpg"
+        },
+        { "name": "keka", "photoUrl": "http://www.example.com/keka.jpg" }
+      ],
+      "confirmed": [],
+      "present": [],
+      "email": "Conceição"
+    },
     {
       "password": "familia",
       "guests": [

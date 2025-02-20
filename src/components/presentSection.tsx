@@ -58,8 +58,8 @@ export function PresentSection({ onSelectionChange }: PresentSectionProps) {
   }
 
   return (
-    <div className="gap-4 flex flex-col border-t py-5 border-green-900">
-      <Input
+    <div className="gap-4 flex flex-col z-50 border-t py-5 border-green-900">
+      <Input className='z-50'
         onChange={e => setSearch(e.target.value)}
         placeholder="Pesquise seu presente"
       />

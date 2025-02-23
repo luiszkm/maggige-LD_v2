@@ -275,6 +275,16 @@
       "email": "Ana"
     },
     {
+      "password": "casamento",
+      "guests": [
+        { "name": "Maria José ", "photoUrl": "http://www.example.com/ana.jpg" },
+        { "name": "Etiene", "photoUrl": "http://www.example.com/kleber.jpg" }
+      ],
+      "confirmed": [],
+      "present": [],
+      "email": "Maria José"
+    },
+    {
       "password": "palmito",
       "guests": [
         { "name": "Pedro", "photoUrl": "http://www.example.com/ana.jpg" },

@@ -275,6 +275,16 @@
       "email": "Ana"
     },
     {
+      "password": "casamento",
+      "guests": [
+        { "name": "Maria José ", "photoUrl": "http://www.example.com/ana.jpg" },
+        { "name": "Etiene", "photoUrl": "http://www.example.com/kleber.jpg" }
+      ],
+      "confirmed": [],
+      "present": [],
+      "email": "Maria José"
+    },
+    {
       "password": "palmito",
       "guests": [
         { "name": "Pedro", "photoUrl": "http://www.example.com/ana.jpg" },
@@ -324,11 +334,6 @@
       "linkUrl": "https://shopee.com.br/product/811034337/23130472127?d_id=b3f38&uls_trackid=51un9oug00r3"
     },
     {
-      "name": "Faqueiro",
-      "photoUrl": "https://down-br.img.susercontent.com/file/f945c11d2d78d51b0a98536f6dfc678a.webp",
-      "linkUrl": "https://shopee.com.br/product/315971499/14705067689?d_id=b3f38&uls_trackid=51unag9s00af"
-    },
-    {
       "name": "Aparelho de Jantar e Chá",
       "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2qmyu1ggs91ad.webp",
       "linkUrl": "https://shopee.com.br/product/455103761/23191147410?d_id=b3f38&uls_trackid=51unavab00ru"
@@ -347,11 +352,6 @@
       "name": "Fritadeira Elétrica",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rdxy-ly6m2urhkkcbcb",
       "linkUrl": "https://shopee.com.br/product/359168917/23897665800?d_id=b3f38&uls_trackid=51unc58h006h"
-    },
-    {
-      "name": "Batedeira",
-      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lzku16en9sid34.webp",
-      "linkUrl": "https://shopee.com.br/product/412968566/20107193490?d_id=b3f38&uls_trackid=51uncr0a016f"
     },
     {
       "name": "Aparelho de Jantar e Chá",
@@ -397,6 +397,11 @@
       "name": "Kit de Pote de Vidro Marmita",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rd6n-lw2wpx5jvnpa05.webp",
       "linkUrl": "https://shopee.com.br/product/318562966/5465784278?d_id=b3f38&uls_trackid=51ung8lf00ae"
+    },
+    {
+      "name": "Panela de Pressão",
+      "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rbky-lp5jdf5bkmzbb0.webp",
+      "linkUrl": "https://shopee.com.br/product/842996464/23597173935?d_id=b3f38&uls_trackid=51unge2q016e"
     },
     {
       "name": "Panela de Pipoca",

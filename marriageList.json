@@ -317,7 +317,7 @@
       "password": "chocolate",
       "guests": [
         { "name": "Juliana", "photoUrl": "http://www.example.com/ana.jpg" },
-        { "name": "Roney", "photoUrl": "http://www.example.com/ana.jpg" }
+        { "name": "Rony", "photoUrl": "http://www.example.com/ana.jpg" }
       ],
       "confirmed": [],
       "present": [],

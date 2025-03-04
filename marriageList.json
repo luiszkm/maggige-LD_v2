@@ -139,15 +139,17 @@
       "password": "macarrao",
       "guests": [
         {
-          "name": "Letícia ",
+          "name": "Joice ",
           "photoUrl": "http://www.example.com/leiticia.jpg"
         },
-        { "name": "Lizze", "photoUrl": "http://www.example.com/lizze.jpg" },
-        { "name": "Alex", "photoUrl": "http://www.example.com/alex.jpg" }
+        { "name": "Heloisa", "photoUrl": "http://www.example.com/lizze.jpg" },
+        { "name": "Leticia", "photoUrl": "http://www.example.com/alex.jpg" },
+        { "name": "Farney", "photoUrl": "http://www.example.com/alex.jpg" }
+
       ],
       "confirmed": [],
       "present": [],
-      "email": "Letícia"
+      "email": "Joice"
     },
     {
       "password": "hamburguer",

@@ -313,9 +313,10 @@
       "email": "Jonathan"
     },
     {
-      "password": "vinho",
+      "password": "chocolate",
       "guests": [
-        { "name": "Ludmilla", "photoUrl": "http://www.example.com/ana.jpg" }
+        { "name": "Juliana", "photoUrl": "http://www.example.com/ana.jpg" },
+        { "name": "Roney", "photoUrl": "http://www.example.com/ana.jpg" }
       ],
       "confirmed": [],
       "present": [],
@@ -532,6 +533,35 @@
       "name": "Armario de Cozinha",
       "photoUrl": "https://images.tcdn.com.br/img/img_prod/664403/cozinha_modulada_271_5cm_com_torre_quente_p_2_fornos_8_portas_5_gavetas_americana_henn_cinza_2887_1_9fa052649f1d74942c72a0193551a529_20240703111351.jpg",
       "linkUrl": "https://www.lojaveneza.com.br/cozinha/cozinha-completa/cozinha-modulada-4-pecas-com-torre-quente-8-portas-5-gavetas-271-5cm-americana-henn-cinza"
+    }, 
+    {
+      "name": "Grill Sanduicheira",
+      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lolhnxaneimke3.webp",
+      "linkUrl": "https://shopee.com.br/product/563103782/21698993486?d_id=b3f38&uls_trackid=524m84qa00rd"
+    },  {
+      "name": "Jogo De Facas ",
+      "photoUrl": "https://down-br.img.susercontent.com/file/7ac48af83e3459fb3fd8e352cae4d022.webp",
+      "linkUrl": "https://shopee.com.br/product/638399297/13179190608?d_id=b3f38&uls_trackid=524m8jcj01s5"
+    },  {
+      "name": "Garrafa Térmica Café",
+      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3c2ieqxedklb6.webp",
+      "linkUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3c2ieqxedklb6.webp"
+    },  {
+      "name": "Jogo de copos",
+      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lto9kju6ceuhfc.webp",
+      "linkUrl": "https://shopee.com.br/product/930987223/22892941182?d_id=b3f38&uls_trackid=524m983o00rk"
+    },  {
+      "name": "Garrafa Térmica Café",
+      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m51edixifpfp05.webp",
+      "linkUrl": "https://shopee.com.br/product/382512923/21899579392?d_id=b3f38&uls_trackid=524m9f9i00rd"
+    },  {
+      "name": "Filtro de Barro",
+      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lyk6wb98ltk595.webp",
+      "linkUrl": "https://shopee.com.br/product/675766576/14381125935?d_id=b3f38&uls_trackid=524m9kur00s1"
+    },  {
+      "name": "Conjunto assadeira",
+      "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rbm2-lnvssm8ctfr90e.webp",
+      "linkUrl": "https://shopee.com.br/product/1050213612/21499068114?d_id=b3f38&uls_trackid=524m9pp100rn"
     }
   ]
 }

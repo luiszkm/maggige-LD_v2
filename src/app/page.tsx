@@ -185,7 +185,7 @@ export default function Home() {
                     <Link href="/presence">confirme sua presença</Link>
                   </Button>
                   <strong className="md:text-2xl text-center">
-                    Gentileza confirmar presença até <br /> 28 de fevereiro
+                    Gentileza confirmar presença até <br /> 10 de Março
                   </strong>
                 </div>
               </div>

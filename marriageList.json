@@ -162,12 +162,13 @@
     {
       "password": "bemcasados",
       "guests": [
-        { "name": "Luciana", "photoUrl": "http://www.example.com/luciana.jpg" },
-        { "name": "Gilmar", "photoUrl": "http://www.example.com/gilmar.jpg" }
+        { "name": "Monica", "photoUrl": "http://www.example.com/luciana.jpg" },
+        { "name": "Samara", "photoUrl": "http://www.example.com/gilmar.jpg" },
+        { "name": "Wellison", "photoUrl": "http://www.example.com/gilmar.jpg" }
       ],
       "confirmed": [],
       "present": [],
-      "email": "Luciana"
+      "email": "Monica"
     },
     {
       "password": "paodemel",

@@ -163,7 +163,7 @@ export default function Guest() {
         />
         <div className="w-full h-full p-2 flex flex-col sm:flex-row z-50 items-start justify-between px-6 gap-5 font-bold">
           <div className="w-full sm:max-w-80">
-            <h2 className="font-bold">{`Bem vinda ${guestName?.guests[0].name}!`}</h2>
+            <h2 className="font-bold">{`Bem vindo ${guestName?.guests[0].name}!`}</h2>
             <p className="">
               Gentileza selecionar abaixo uma sugestão de presente, clique em
               cada nome na lista de convidados (ficará verde quando confirmar e

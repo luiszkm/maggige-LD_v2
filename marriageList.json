@@ -139,15 +139,14 @@
       "password": "macarrao",
       "guests": [
         {
-          "name": "Joice ",
-          "photoUrl": "http://www.example.com/leiticia.jpg"
+          "name": "Ezim  ",
+          "photoUrl": "http://www.example.com/Ezim.jpg"
         },
-        { "name": "Heloisa", "photoUrl": "http://www.example.com/lizze.jpg" },
-        { "name": "Leticia", "photoUrl": "http://www.example.com/alex.jpg" }
+        { "name": "Amanda ", "photoUrl": "http://www.example.com/Amanda .jpg" },
       ],
       "confirmed": [],
       "present": [],
-      "email": "Joice"
+      "email": "Ezim"
     },
     {
       "password": "hamburguer",
@@ -459,26 +458,6 @@
       "name": "Conjunto de Travessa",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-22100-ls26n2xckpiv1b.webp",
       "linkUrl": "https://shopee.com.br/product/455103761/19955068394?d_id=b3f38&uls_trackid=51unl43900r3"
-    },
-    {
-      "name": "Pratos",
-      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134201-22120-g3g6m9ef9clv5d.webp",
-      "linkUrl": "https://shopee.com.br/product/805216784/21169386328?d_id=b3f38&uls_trackid=51unlht3016h"
-    },
-    {
-      "name": "Pratos",
-      "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rd3o-lx15o9oc95lr88.webp",
-      "linkUrl": "https://shopee.com.br/product/616244069/23391908457?d_id=b3f38&uls_trackid=51unlo89016e"
-    },
-    {
-      "name": "Pratos",
-      "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rcbs-lr2fypq0wpk086.webp",
-      "linkUrl": "https://shopee.com.br/product/1138184210/23092815416?d_id=b3f38&uls_trackid=51unlrh100ru"
-    },
-    {
-      "name": "Pratos",
-      "photoUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m33m74zb2cr71e.webp",
-      "linkUrl": "https://shopee.com.br/product/966912787/23992921546?d_id=b3f38&uls_trackid=51unm1gl006e"
     },
     {
       "name": "Panela elétrica para fondue",

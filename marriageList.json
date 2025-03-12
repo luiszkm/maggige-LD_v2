@@ -142,7 +142,7 @@
           "name": "Ezim  ",
           "photoUrl": "http://www.example.com/Ezim.jpg"
         },
-        { "name": "Amanda ", "photoUrl": "http://www.example.com/Amanda .jpg" },
+        { "name": "Amanda ", "photoUrl": "http://www.example.com/Amanda .jpg" }
       ],
       "confirmed": [],
       "present": [],

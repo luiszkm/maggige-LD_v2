@@ -320,7 +320,17 @@
       ],
       "confirmed": [],
       "present": [],
-      "email": "Ludmilla"
+      "email": "Juliana"
+    },
+    {
+      "password": "vinho",
+      "guests": [
+        { "name": "Sandra", "photoUrl": "http://www.example.com/ana.jpg" },
+        { "name": "Frances", "photoUrl": "http://www.example.com/ana.jpg" }
+      ],
+      "confirmed": [],
+      "present": [],
+      "email": "Sandra"
     }
   ],
   "presentList": [
@@ -383,11 +393,6 @@
       "name": "Panela Inox",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rdx4-m12z25tctlh033.webp",
       "linkUrl": "https://shopee.com.br/product/309036083/22892888847?d_id=b3f38&uls_trackid=51ung34j00ru"
-    },
-    {
-      "name": "Kit de Pote de Vidro Marmita",
-      "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rd6n-lw2wpx5jvnpa05.webp",
-      "linkUrl": "https://shopee.com.br/product/318562966/5465784278?d_id=b3f38&uls_trackid=51ung8lf00ae"
     },
     {
       "name": "Panela De Inox",
@@ -478,11 +483,6 @@
       "name": "Assadeiras de Vidro",
       "photoUrl": "https://down-br.img.susercontent.com/file/sg-11134201-7rd5h-lvdpa9abylb76d.webp",
       "linkUrl": "https://shopee.com.br/product/822103155/23393010982?d_id=b3f38&uls_trackid=51uvo8s900r3"
-    },
-    {
-      "name": "Tv 55'",
-      "photoUrl": "https://fastshopbr.vtexassets.com/arquivos/ids/769797/0_SGUN55DU8000_PRD_1500_1.jpg?v=638652853427630000",
-      "linkUrl": "https://site.fastshop.com.br/smart-tv-samsung-crystal-uhd-4k-55--polegadas-55du8000-com-painel-dynamic-crystal-color--design-airslim-e-alexa-bui-sgun55du8000_prd/p"
     },
     {
       "name": "Mesa de Jantar",

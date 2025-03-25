@@ -331,6 +331,16 @@
       "confirmed": [],
       "present": [],
       "email": "Sandra"
+    },
+    {
+      "password": "avo",
+      "guests": [
+        { "name": "Adão Herculano", "photoUrl": "http://www.example.com/ana.jpg" },
+        { "name": "Cleuza Maria", "photoUrl": "http://www.example.com/ana.jpg" }
+      ],
+      "confirmed": [],
+      "present": [],
+      "email": "Adão"
     }
   ],
   "presentList": [
